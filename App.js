@@ -9,7 +9,7 @@ export default class App extends React.Component {
     return (
       <KeyboardAvoidingView style={styles.container}>
         <Text style ={[styles.largeText, styles.textStyle]}>
-        Columbia</Text>
+        Columbia, SC</Text>
         <Text style = {[styles.smallText, styles.textStyle]}>
         clear
         </Text>
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   textStyle: {
     textAlign: 'center',
     fontFamily: 
-    Platform.OS == 'ios' ? 'AvenirNext-Regular': 'Roboto',
+    Platform.OS === 'ios' ? 'AvenirNext-Regular': 'Roboto',
   },
   largeText: {
     fontSize: 44,

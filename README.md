@@ -1,2 +1,3 @@
 # weather
-Weather app using expo cli
+Weather app using expo cli 
+add to readme
